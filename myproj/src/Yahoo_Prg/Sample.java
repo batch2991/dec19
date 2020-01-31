@@ -19,5 +19,9 @@ public void f2()
 {
 	System.out.println("the is new method added");
 }
+public void f4()
+{
+	System.out.println("this is new method");
+}
 
 }
