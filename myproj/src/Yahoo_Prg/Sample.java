@@ -10,7 +10,7 @@ public void f1()
 
 public void f3()
 {
-	System.out.println("f3 added");
+	System.out.println("f3 added in method");
 	
 }
 

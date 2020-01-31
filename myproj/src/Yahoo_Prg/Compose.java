@@ -26,7 +26,7 @@ public class Compose extends MainClass
 		 {
 			 log=ext.createTest("PassTest");
 			 log.log(Status.PASS, "Compose is working");
-			 System.out.println("above one is for compose");
+			 System.out.println("above one is for compose program");
 			 File f=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			 FileUtils.copyFile(f,new File("d:\\sel_prac\\images\\compose.png"));
 			 log.addScreenCaptureFromPath("d:\\sel_prac\\images\\compose.png");
